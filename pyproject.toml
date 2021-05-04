@@ -5,7 +5,18 @@ description = ""
 authors = ["s1830134 <s1830134@s.tsukuba.ac.jp>"]
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = ">=3.9,<3.10"
+hmmlearn = "^0.2.5"
+matplotlib = "^3.4.1"
+numpy = "^1.20.2"
+pandas = "^1.2.4"
+pykalman = "^0.9.5"
+sklearn = "^0.0"
+scipy = "^1.6.3"
+statsmodels = "^0.12.2"
+seaborn = "^0.11.1"
+ipykernel = "^5.5.3"
+requests = "^2.25.1"
 
 [tool.poetry.dev-dependencies]
 
